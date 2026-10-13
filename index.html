@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f1e8">
+  <meta name="description" content="Faishal is an independent video editor in India, shaping raw footage into stories that move people.">
+  <title>Faishal — Independent Video Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Faishal, home">FAISHAL<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-topline"><span class="eyebrow"><strong>VIDEO EDITOR</strong></span><span class="availability"><i></i> <strong>OPEN FOR COLLABORATIONS</strong></span></div>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="overline">Stories, shaped with intention.</p>
+          <h1>Ideas in.<br><em>Impact out.</em></h1>
+          <p class="hero-intro">I’m Faishal — a video editor turning raw footage into stories that hold attention and stay with you.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#work">View my work <span>↘</span></a><a class="text-link" href="#contact">Let’s talk <span>↗</span></a></div>
+          <aside class="about-peek"><span class="peek-mark">01 /</span><p><strong>A little about me</strong><br>I care about the details between the frames: the rhythm, the feeling, the moment a story clicks.</p><a href="#about" aria-label="Read more about Faishal">↗</a></aside>
+        </div>
+        <div class="hero-reel">
+          <img src="assets/images/editing-workspace.png" alt="Video editing workspace with a timeline open on the monitor" fetchpriority="high">
+          <span class="reel-wash"></span><span class="reel-caption">A collection of moving moments</span>
+        </div>
+      </div>
+      <div class="hero-footer"><span>Thoughtful edits. Human stories.</span><a href="#work">Scroll to explore <span>↓</span></a><span class="hero-edition">Portfolio / 2025</span></div>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="about-photo reveal"><img src="assets/images/profile-pic.jpeg" alt="Illustrated portrait of Faishal in a suit, with a video editing timeline and software icons" loading="lazy"></div>
+      <div class="about-content reveal"><p class="eyebrow">02 / The person behind the edit</p><h2>Good edits<br>make you <em>feel.</em></h2><p class="about-lede">I’m Faishal, a video editor passionate about visual storytelling, engaging pacing, sound design, and creating videos that capture attention.</p><p>I turn raw footage into compelling stories that people feel, remember, and share. From the first rough cut to the final color pass, I bring care and curiosity to every frame.</p><a class="text-link" href="#contact">A little more about working together <span>↗</span></a><div class="about-signature">Faishal<span>.</span></div></div>
+    </section>
+
+    <section class="work-section section-wrap" id="work">
+      <div class="section-heading reveal"><div><p class="eyebrow">03 / Selected work</p><h2>A few things<br><em>in motion.</em></h2></div><p class="section-note">A collection of edits made to move at the right pace, for the right reason.</p></div>
+      <div class="filter-bar" role="group" aria-label="Filter projects">
+        <button class="filter-chip active" data-filter="all" aria-pressed="true">All work <span>07</span></button>
+        <button class="filter-chip" data-filter="youtube" aria-pressed="false">YouTube videos</button><button class="filter-chip" data-filter="sports" aria-pressed="false">Sports edits</button><button class="filter-chip" data-filter="brand" aria-pressed="false">Brand films</button><button class="filter-chip" data-filter="reels" aria-pressed="false">Reels & shorts</button><button class="filter-chip" data-filter="motion" aria-pressed="false">Motion graphics</button>
+      </div>
+      <div class="project-grid" id="project-grid">
+        <article class="project-card project-wide reveal" data-category="motion"><button class="project-image video-trigger" type="button" aria-label="Play Video 01 — Motion Graphics" data-video="assets/videos/video-01.mp4" data-local-video="true" data-title="Video 01 — Motion Graphics"><video class="gallery-video" src="assets/videos/video-01.mp4" autoplay loop muted playsinline preload="auto" aria-hidden="true"></video><span class="image-number">01</span><span class="card-play">▶</span><span class="demo-tag">MOTION GRAPHICS</span></button><div class="project-meta"><div><p class="eyebrow">Motion graphics</p><h3>Video 01</h3></div><span>MP4 / Motion study</span></div></article>
+        <article class="project-card portrait-project reveal" data-category="reels"><button class="project-image video-trigger" type="button" aria-label="Play Kuldeep Reels Edit" data-video="assets/videos/kuldeep-v2.mp4" data-local-video="true" data-video-aspect="9:16" data-title="Kuldeep Edit — Reels & Shorts"><video class="gallery-video" src="assets/videos/kuldeep-v2.mp4" autoplay loop muted playsinline preload="auto" aria-hidden="true"></video><span class="image-number">02</span><span class="card-play">▶</span><span class="demo-tag">REELS & SHORTS</span></button><div class="project-meta"><div><p class="eyebrow">Reels & shorts</p><h3>Kuldeep Edit</h3></div><span>9:16 / Reels</span></div></article>
+        <article class="project-card portrait-project reveal" data-category="youtube"><button class="project-image video-trigger" type="button" aria-label="Play Podcast edit" data-video="assets/videos/podcast-revised.mp4" data-local-video="true" data-video-aspect="9:16" data-title="Podcast Edit — YouTube"><video class="gallery-video" src="assets/videos/podcast-revised.mp4" autoplay loop muted playsinline preload="auto" aria-hidden="true"></video><span class="image-number">03</span><span class="card-play">▶</span><span class="demo-tag">PODCAST EDIT</span></button><div class="project-meta"><div><p class="eyebrow">YouTube video</p><h3>Podcast Edit</h3></div><span>9:16 / Podcast</span></div></article>
+        <article class="project-card portrait-project reveal" data-category="sports"><button class="project-image video-trigger" type="button" aria-label="Play Football Edit" data-video="assets/videos/football-yt.mp4" data-local-video="true" data-video-aspect="9:16" data-title="Football Edit — Sports"><video class="gallery-video" src="assets/videos/football-yt.mp4" autoplay loop muted playsinline preload="auto" aria-hidden="true"></video><span class="image-number">04</span><span class="card-play">▶</span><span class="demo-tag">SPORTS EDIT</span></button><div class="project-meta"><div><p class="eyebrow">Sports edit</p><h3>Football Edit</h3></div><span>9:16 / Sports edit</span></div></article>
+        <article class="project-card portrait-project reveal" data-category="brand reels"><button class="project-image video-trigger" type="button" aria-label="Play Business Summit brand film and reel" data-video="assets/videos/business-summit-revised.mp4" data-local-video="true" data-video-aspect="9:16" data-title="Business Summit — Brand Film & Reel"><video class="gallery-video" src="assets/videos/business-summit-revised.mp4" autoplay loop muted playsinline preload="auto" aria-hidden="true"></video><span class="image-number">05</span><span class="card-play">▶</span><span class="demo-tag">BRAND FILM · REEL</span></button><div class="project-meta"><div><p class="eyebrow">Brand film · Reels & shorts</p><h3>Business Summit</h3></div><span>9:16 / Brand film + reel</span></div></article>
+        <article class="project-card portrait-project reveal" data-category="brand"><button class="project-image video-trigger" type="button" aria-label="Play Tingly brand film" data-video="assets/videos/tingly-revised.mp4" data-local-video="true" data-video-aspect="9:16" data-title="Tingly — Brand Film"><video class="gallery-video" src="assets/videos/tingly-revised.mp4" autoplay loop muted playsinline preload="auto" aria-hidden="true"></video><span class="image-number">06</span><span class="card-play">▶</span><span class="demo-tag">BRAND FILM</span></button><div class="project-meta"><div><p class="eyebrow">Brand film</p><h3>Tingly</h3></div><span>9:16 / Brand film</span></div></article>
+        <article class="project-card portrait-project reveal" data-category="youtube"><button class="project-image video-trigger" type="button" aria-label="Play Astro Facts video" data-video="assets/videos/astrofacts30-8.mp4" data-local-video="true" data-video-aspect="9:16" data-title="Astro Facts — YouTube Video"><video class="gallery-video" src="assets/videos/astrofacts30-8.mp4" autoplay loop muted playsinline preload="auto" aria-hidden="true"></video><span class="image-number">07</span><span class="card-play">▶</span><span class="demo-tag">ASTRO FACTS</span></button><div class="project-meta"><div><p class="eyebrow">YouTube video</p><h3>Astro Facts</h3></div><span>9:16 / YouTube</span></div></article>
+      </div>
+      
+    </section>
+
+    <section class="services-section section-wrap" id="services">
+      <div class="section-heading service-heading reveal"><div class="service-heading-left"><p class="eyebrow">04 / Services</p><h2>What I <em>do.</em></h2><p class="section-note">One thoughtful process, tailored to the story you want to tell.</p></div><div class="service-heading-right"><h2>From first cut<br>to <em>final frame.</em></h2></div></div>
+      <div class="service-list">
+        <div class="service-row reveal"><span>01</span><h3>YouTube video editing</h3><p>Long-form storytelling, pacing & polish</p><b>↗</b></div>
+        <div class="service-row reveal"><span>02</span><h3>Reels & YouTube Shorts</h3><p>Vertical edits built for the scroll</p><b>↗</b></div>
+        <div class="service-row reveal"><span>03</span><h3>Football & sports edits</h3><p>Energy, timing & match-day moments</p><b>↗</b></div>
+        <div class="service-row reveal"><span>04</span><h3>Brand films & ads</h3><p>Distinctive films for people and products</p><b>↗</b></div>
+        <div class="service-row reveal"><span>05</span><h3>Motion graphics</h3><p>Movement that gives your message shape</p><b>↗</b></div>
+        <div class="service-row reveal"><span>06</span><h3>Sound design & color</h3><p>The finishing touches that make it land</p><b>↗</b></div>
+      </div>
+    </section>
+
+    <section class="skills-section section-wrap">
+      <div class="skills-intro reveal"><p class="eyebrow">05 / The toolkit</p><h2>Craft meets<br><em>curiosity.</em></h2><p>The tools matter. The choices matter more. I bring both to every project.</p></div>
+      <div class="skills-panel reveal"><div class="skill-group"><p class="eyebrow">Software</p><div class="skill-tags"><span>Premiere Pro</span><span>After Effects</span><span>DaVinci Resolve</span><span>Photoshop</span></div></div><div class="skill-group"><p class="eyebrow">The craft</p><div class="skill-tags"><span>Storytelling & pacing</span><span>Sound design</span><span>Color grading</span><span>Typography</span></div></div><div class="skills-note"><span>✳</span> Every frame has a reason.</div></div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact"><div class="contact-inner reveal"><p class="eyebrow">06 / Your next story</p><h2>Let’s make<br>something <em>matter.</em></h2><p>Have a project in mind? Tell me what you’re making and we’ll take it from there.</p><a class="button button-light" href="mailto:renderbyfaishal@gmail.com?subject=Let's%20make%20something%20matter">Start a conversation <span>↗</span></a><span class="contact-scribble" aria-hidden="true">✳</span></div><div class="contact-bottom"><a class="contact-social-link" href="mailto:renderbyfaishal@gmail.com"><svg class="contact-social-icon gmail-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M1.5 6.7v11.1c0 .9.7 1.7 1.7 1.7h2.5V9.2z"/><path fill="#34A853" d="M18.3 19.5h2.5c.9 0 1.7-.7 1.7-1.7V6.7l-4.2 2.5z"/><path fill="#FBBC04" d="M1.5 6.7 3 5.2c.6-.6 1.6-.7 2.3-.2l6.7 5 6.7-5c.7-.5 1.7-.4 2.3.2l1.5 1.5-10.5 7.8z"/><path fill="#EA4335" d="m1.5 6.7 4.2 2.5V5.3L5.3 5a1.7 1.7 0 0 0-2.3.2z"/><path fill="#C5221F" d="m22.5 6.7-4.2 2.5V5.3l.4-.3a1.7 1.7 0 0 1 2.3.2z"/></svg><span>renderbyfaishal@gmail.com</span></a><div class="social-links"><a class="contact-social-link" href="https://www.linkedin.com/in/mahamad-faishal-18635533a/" target="_blank" rel="noopener noreferrer"><svg class="contact-social-icon linkedin-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="#0A66C2" d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52"/><path fill="#fff" d="M6.7 9.1h2.6v8.3H6.7zm1.3-4.1a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m2.9 4.1h2.5v1.1h.04c.35-.66 1.2-1.36 2.46-1.36 2.63 0 3.12 1.73 3.12 3.98v4.58h-2.6v-4.06c0-.97-.02-2.22-1.36-2.22-1.36 0-1.57 1.06-1.57 2.15v4.13h-2.6z"/></svg><span>LinkedIn ↗</span></a></div><span>India · Available worldwide</span></div></section>
+  </main>
+  <footer class="site-footer"><a class="wordmark" href="#home">FAISHAL<span>.</span></a><a href="#home">Back to top ↑</a><span>© <span id="year">2025</span> Faishal</span></footer>
+
+  <dialog class="video-dialog" aria-label="Video player"><div class="dialog-top"><span class="dialog-title">Video preview</span><button class="dialog-close" type="button" aria-label="Close video">×</button></div><div class="video-frame"><iframe title="Video preview" src="" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe><video controls loop playsinline hidden></video></div></dialog>
+</body>
+</html>
